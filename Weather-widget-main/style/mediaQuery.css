@@ -1,0 +1,182 @@
+@media (max-width: 1300px) {
+    body {
+  background: linear-gradient(50deg, rgba(0, 0, 0, 0.987) 0%, rgb(10, 10, 64) 50%, rgb(25, 219, 206) 97%);
+        
+    }
+    header {
+        padding-top: 100px;
+        padding-left: 90px;
+        padding-bottom: 100px;
+        font-size: 20px;
+        
+    }
+    .header > h1 {
+        font-size: 110px;
+        color: blueviolet;
+    }
+    .form {
+        margin-left: 50px;
+    }
+    .main {
+        height: 500px;
+    }
+    
+}
+ @media (max-width: 1150px) {
+    body {
+        background: linear-gradient(50deg, rgba(0, 0, 0, 0.987) 0%, rgb(10, 10, 64) 50%, rgb(25, 219, 206) 97%);    
+        }
+          header {
+            color: beige;
+            padding-top: 70px;
+            padding-left: 100px;
+            padding-bottom: 100px;
+            /* font-size: 90px; */
+
+        }
+        .header > h1 {
+            font-size: 90px;
+            color: blueviolet;
+        }
+        .form {
+            margin-left: 25px;
+            width: 700px;
+        }
+} 
+@media (max-width: 900px) {
+    body {
+        background: linear-gradient(50deg, rgba(0, 0, 0, 0.987) 0%, rgb(10, 10, 64) 50%, rgb(25, 219, 206) 97%);    
+        }
+          header {
+            color: beige;
+            padding-top: 70px;
+            padding-left: 60px;
+            padding-bottom: 100px;
+           
+
+        }
+        .header > h1 {
+            font-size: 70px;
+            color: blueviolet;
+        }
+        .form {
+            margin-left: 20px;
+            width: 550px;
+        }
+} 
+@media (max-width: 700px) {
+    body {
+        background: linear-gradient(50deg, rgba(0, 0, 0, 0.987) 0%, rgb(10, 10, 64) 50%, rgb(25, 219, 206) 97%);    
+        }
+          header {
+            color: beige;
+            padding-top: 70px;
+            padding-left: 40px;
+            padding-bottom: 100px;
+           
+
+        }
+        .header > h1 {
+            font-size: 60px;
+            color: blueviolet;
+        }
+        .form {
+            margin-left: 15px;
+            width: 500px;
+        }
+} 
+@media (max-width: 590px) {
+    body {
+        background: linear-gradient(50deg, rgba(0, 0, 0, 0.987) 0%, rgb(10, 10, 64) 50%, rgb(25, 219, 206) 97%);    
+        }
+          header {
+            color: beige;
+            padding-top: 70px;
+            padding-left: 30px;
+            padding-bottom: 100px;
+           
+
+        }
+        .header > h1 {
+            font-size: 50px;
+            color: blueviolet;
+        }
+        .form {
+            margin-left: 10px;
+            width: 450px;
+        }
+     
+        .card {
+            width: 300px;
+        }
+        .City {
+            padding-top: 20px;
+        }
+        .degree {
+            margin-left: 70px;
+        }
+        img {
+            margin-left: 0px;
+        }
+} 
+
+@media (min-width: 205px) and (max-width: 505px){
+    body {
+        background: linear-gradient(50deg, rgba(0, 0, 0, 0.987) 0%, rgb(10, 10, 64) 50%, rgb(25, 219, 206) 97%);    
+        }
+          header {
+            color: beige;
+            padding-top: 40px;
+            padding-left: 15px;
+            padding-bottom: 100px;
+           
+
+        }
+        .header > h1 {
+            font-size: 35px;
+            color: blueviolet;
+        }
+        .form {
+            margin-left: 10px;
+            width: 300px;
+            height: 40px;
+        }
+        .inpt {
+            width: 130px;
+            font-size: 10px;
+            padding-left: 13px;
+            height: 0px;
+        }
+        .X {
+            padding: 10px;
+            padding-top: 12px;
+            font-size: 10px;
+        }
+        .btn {
+            padding: 10px;
+            padding-right: 47px;
+            height: 40px;
+            font-size: 12px;
+        }
+        
+        .card {
+            width: 300px;
+        }
+        .City {
+            padding-top: 20px;
+        }
+        .degree {
+            margin-left: 70px;
+        }
+        img {
+            margin-left: 0px;
+        }
+        .card-eror {
+            width: 300px;
+            font-size: 20px;
+        }
+        .card-eror div {
+            width: 300px;
+            font-size: 30px;
+        }
+} 

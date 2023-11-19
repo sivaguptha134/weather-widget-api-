@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style/mediaQuery.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<title>Document</title>
+</head>
+<body>
+        <header class="main-header"> 
+            <div class="header-container">
+               <div class="header">
+                    <h1>WEATHER FORECAST</h1>
+                    <form class="form">
+                        <input type="text" class="inpt" placeholder="Enter the Place of the city"> 
+                        <div class="X">X</div>
+                        <button class="btn">Show</button>
+                    </form>
+                </div> 
+            </div>
+        </header>
+        <main>
+            <div class="content">
+                <div class="main-container">
+                    <!-- <div class="card">
+                        <div class="City"></div>
+                        <div class="weather">
+                            <div class="degree"></div>
+                            <img src="" alt="">
+                        </div>
+                        <div class="description"></div> -->
+                    </div>  
+            </div>
+            <div id="map-test" class="map">
+
+            </div>
+        </main>
+    <script src="/snow/snowfall.jquery.min.js"></script>
+    <script src="Js/script.js"></script>
+    <script>
+    
+        $(document).ready(function() {
+    
+            $(document).snowfall({
+                // collection: ".collectonme",
+                flakeCount: 200 // Количество снежинок
+            });
+    
+        });
+    
+    </script>
+</body>
+</html>
